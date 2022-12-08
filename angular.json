@@ -22,10 +22,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["src/css/styles.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["src/js/scripts.js",
+            
+            "src/js/datatables-simple-demo.js",
+            "src/js/d3.js",
+            "src/js/d3.min.js"]
           },
           "configurations": {
             "production": {
@@ -97,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
